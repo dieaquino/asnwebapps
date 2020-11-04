@@ -2,7 +2,7 @@ version: '2.4'
 services:
   wwwserver:
     build: .
-    image: asn/phpwebapp
+    image: dieaquino/phpwebapp
     ports:
       # Random external port for HTTP direct access 
       - "8080:80"
