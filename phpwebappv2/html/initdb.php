@@ -38,6 +38,6 @@
 		('second','Hidden',1)";
 	$db->exec($query);
 
-	header("Location: .");
+	header("Location:index.php");
 	exit();
 ?>
