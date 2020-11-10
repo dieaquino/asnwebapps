@@ -1,7 +1,7 @@
 <html>
 	<head> </head>
 	<body>
-		<h1>My Notes</h1>
+		<h1>Stored Cross Site Scripting (XSS) - inseguro</h1>
 		<ul>
 			<? foreach ($vmodel['notes'] as $n): ?>
 				<li>
@@ -22,5 +22,9 @@
 	<em>Server: <?=$_SERVER['SERVER_ADDR'] ?> </em>
 	<em>Worker: <?=gethostname() ?> </em>
 
+	<hr>
+	<p><a href="ejemplo1_protegido.php">Anterior</a>
+	<p><a href="../index.php">Volver Página Principal</a>
+	<p><a href="ejemplo2_protegido.php">Siguiente</a>
 	</body>
 </html>

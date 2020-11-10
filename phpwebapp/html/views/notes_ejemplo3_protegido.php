@@ -1,11 +1,10 @@
 <html>
 	<head> </head>
 	<body>
-		<h1>My Notes</h1>
+		<h1>Validaci&oacute;n de datos de formulario - protegido</h1>
 		<ul>
 			<? foreach ($vmodel['notes'] as $n): ?>
 				<li>
-				Id: <a href='index2.php?id=<?=$n['id']?>'><?=$n['id']?></a>
 				Title: <?=$n['title']?>
 				Message:  <?=$n['text']?>
 				Hidden:   <?=$n['hidden']?>
@@ -21,6 +20,12 @@
 	<hr>
 	<em>Server: <?=$_SERVER['SERVER_ADDR'] ?> </em>
 	<em>Worker: <?=gethostname() ?> </em>
+	
+	<hr>
+	<p><a href="ejemplo3_inseguro.php">Anterior</a>
+	<p><a href="../index.php">Volver Página Principal</a>
+	<p><a href="../index.php">Siguiente</a>
+
 
 	</body>
 </html>
