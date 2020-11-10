@@ -35,7 +35,7 @@
 		</ul><hr>
 		
 		<h2>Detalles de la Pila:</h2>
-		<h3>Apache, Php, MariaDB</h3>
+		<h3>Apache, Php, SQLite</h3>
 		<hr>
 		<ol>
 			<li><a href="initdb.php">Inicializar Base de datos</a></li>
